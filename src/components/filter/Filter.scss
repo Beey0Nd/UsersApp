@@ -1,0 +1,17 @@
+@import "../../style/variables.scss";
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: $filter-background;
+    padding: 35px 25px;
+    &__header {
+        color: $black;
+        font-size: 12px;
+    }
+    &__button {
+        @include button($blue);
+    }
+}

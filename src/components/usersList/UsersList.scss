@@ -1,0 +1,33 @@
+@import "../../style/variables.scss";
+
+.users {
+    padding: 20px 60px 25px 30px;
+    flex: 1 1 auto;
+    &__heading {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    &__card {
+        @include card;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    &__info {
+        color: $grey-text;
+        span {
+            color: $black;
+        }
+    }
+    &__found {
+        text-align: right;
+    }
+}
