@@ -1,0 +1,41 @@
+{
+  "heroes": [
+    {
+      "name": "Огненный",
+      "description": "Огненный 2 ",
+      "element": "fire",
+      "id": "29b9a055-1f8f-4ae7-9c0f-81623b6b730a"
+    },
+    {
+      "name": "Windy",
+      "description": "qwertyasdfg",
+      "element": "wind",
+      "id": "f0fcdbca-5f99-4ade-b6f4-4ac7132ad3e2"
+    },
+    {
+      "name": "Fiery",
+      "description": "qweryasd",
+      "element": "fire",
+      "id": "51522df6-a2e3-41b1-9e1a-69dd46583f37"
+    },
+    {
+      "name": "Watery",
+      "description": "qwewetwetasdasfagsagas",
+      "element": "water",
+      "id": "2602ba39-938e-46c5-9487-dddd74b8bb8e"
+    },
+    {
+      "name": "Earthy",
+      "description": "wdqgwrega",
+      "element": "earth",
+      "id": "f075ab4d-f33e-4693-ab27-741610ac36db"
+    }
+  ],
+  "filters": [
+    "all",
+    "fire",
+    "water",
+    "wind",
+    "earth"
+  ]
+}
